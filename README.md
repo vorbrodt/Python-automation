@@ -20,9 +20,7 @@ Small automation projects to handle downloads, backups etc.
 
 - Go to home folder (cd ~/) and run: touch .my_custom_commands.sh ("." will make it invisible and harder to delete)
 
-- Add the following code to .my_custom_commands.sh: 
-
-
+- Download the files .my/
 
 - Open the /.bash_profile with: subl ~/.bash_profile, then add the following line: source ~/.my_custom_commands.sh
 
