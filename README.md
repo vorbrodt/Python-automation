@@ -32,7 +32,7 @@ Different automations using Python. Currently:
 
 - To create git repository: creategitrep repository_name
 
-## Adding sublime text as command (subl)
+### Tip! Adding sublime text as command in terminal (subl)
 
 - Run in terminal: sudo ln -s "/Applications/Sublime Text.app/Contents/SharedSupport/bin/subl" /usr/local/bin/subl
 
