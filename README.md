@@ -3,7 +3,7 @@ Different automations using Python. Currently:
 
 - An organizer for the download folder which runs automatically
 
-- A shell and Python script, which togheter creates git repository locally and on github. The command             "creategitrep repository_name" is used in the terminal to execute the files
+- A shell and Python script, which togheter creates git repository locally and on github. The command "creategitrep repository_name" is used in the terminal to execute the files
 
 ## Running the download organizer automatically (macOS)
 - Run: chmod 755 filename
