@@ -18,9 +18,11 @@ Small automation projects to handle downloads, backups etc.
 
 ## Adding custom command to create git repository
 
-- Go to home folder (cd ~/) and run: touch .my_custom_commands.sh ("." will make it invisible and harder to delete)
+- Download .my_custom_commands.sh ("." before filename will make it invisible and harder to delete) to home directory (cd ~/)
 
-- Download the files .my/
+- To use chrome with selenium a chromedriver is nedded. Find chromdriver on google and download one for your operating system
+
+- Download create_git_rep.py and make sure all paths in .my_custom_commands.sh and create_git_rep.py are correct, as well as the loggin information (username and password).
 
 - Open the /.bash_profile with: subl ~/.bash_profile, then add the following line: source ~/.my_custom_commands.sh
 
@@ -29,4 +31,6 @@ Small automation projects to handle downloads, backups etc.
 ## Adding sublime text as command (subl)
 
 - Run in terminal: sudo ln -s "/Applications/Sublime Text.app/Contents/SharedSupport/bin/subl" /usr/local/bin/subl
+
+- (Note: If no /user/local/bin exists run "mkdir /user/local/bin" in home directory (cd ~/)
 
