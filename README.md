@@ -26,6 +26,8 @@ Small automation projects to handle downloads, backups etc.
 
 - Open the /.bash_profile with: subl ~/.bash_profile, then add the following line: source ~/.my_custom_commands.sh
 
+- To create git repository: creategitrep repository_name
+
 ## Adding sublime text as command (subl)
 
 - Run in terminal: sudo ln -s "/Applications/Sublime Text.app/Contents/SharedSupport/bin/subl" /usr/local/bin/subl
